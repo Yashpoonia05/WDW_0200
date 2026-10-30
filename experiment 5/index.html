@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>experiment 5</title>
+</head>
+<body>
+    <form action="#">
+        <h1 align="center">Student Registration Form</h1>
+        <hr>
+        <label for="name" >Full Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Full Name" required>
+        <br>
+        <br>
+        <label for="email" >Enter:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Valid Email Address" required>
+        <br>
+        <br>
+        <label for="password" >Enter password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter Password" required>
+        <br>
+        <br>
+        <label for="gender">Gender :</label>
+        <input type="radio" name="gender" id="male" value="male" required >
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other" required>
+        <label for="other">other</label>
+        <br>
+        <br>
+        <label for="course" id="course">course:</label>
+        <select name="course" id="course" required>
+            <option value="" selected disabled>--select course--</option>
+            <option value="Btech">Btech</option>
+            <option value="BBA">BBA</option>
+            <option value="MBA">MBA</option>
+        </select>
+        <br>
+        <br>
+        <label for="contact" >Contact No. :</label>
+        <input type="tel" name="contact" id="contact" placeholder="Enter Contact Number" required>
+        <br>
+        <br>
+        <label for="Address">Address :</label>
+        <br>
+        <textarea name="Address" id="Address" cols="30" rows="5" placeholder="Enter Your Address"></textarea>
+        <br>
+        <br>
+        <button type="submit">Register</button>
+        <button type="reset">clear</button>
+        <hr>
+        <p align="center">&copy; 2025 Student Registration Portal</p>
+    </form>
+</body>
+</html>
